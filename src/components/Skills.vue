@@ -18,9 +18,6 @@ export default {
         { "skill": "Vue.js" },
         { "skill": "Front End Dev" },
       ],
-      bgColor: 'yellow',
-      bgwidth: '100%',
-      bgheight: '30px'
     }
   }
 }

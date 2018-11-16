@@ -1,21 +1,25 @@
+<!-- HTML goes in Template section -->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- "Skills" here is referenceing the name of a component -->
+    <Skills />
   </div>
 </template>
 
+<!-- Logic of the app -->
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// We must import Skills component
+import Skills from './components/Skills.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Skills
   }
 }
 </script>
 
+<!-- CSS -->
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
